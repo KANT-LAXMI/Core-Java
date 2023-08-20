@@ -2,10 +2,7 @@ package com.iacsd;
 
 import java.time.LocalDate;
 
-/*
- * customer id(int) ,first name, last name (string),email(string),password(string),
- * registrationAmount(double),dob(LocalDate),plan(ServicePlan : enum)
- */
+
 public class Customer implements Comparable<Customer>{
 	private int customerId;
 	private String firstName;
